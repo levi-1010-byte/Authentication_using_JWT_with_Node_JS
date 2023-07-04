@@ -17,6 +17,9 @@
     "start": "node app.js"
     
   },
+   "engines": {
+    "node": ">=14.20.1"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/levi-1010-byte/Authentication_using_JWT_with_Node_JS.git"
