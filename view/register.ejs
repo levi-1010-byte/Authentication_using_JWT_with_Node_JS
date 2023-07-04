@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+    <title>demo | Login Menü</title>
+    <meta charset="UTF-8">
+
+    <link rel='stylesheet'  href='./style.css'>
+    
+</head>
+<body>
+    
+    <div class="login-box">
+        <h2>Register</h2>
+        <form action="/auth/register" method="POST">
+            <div class="user-box">
+                <input type="text" name="name" required="true">
+                <label>name</label>
+            </div>
+            <div class="user-box">
+                <input type="number" name="contactno" required="true">
+                <label>contact</label>
+            </div>
+          <div class="user-box">
+            <input type="text" name="email" required="true">
+            <label>email</label>
+          </div>
+          <div class="user-box">
+            <input type="password" name="password" required="true">
+            <label>Password</label>
+          </div>
+        <form action="/login" method="get">
+         <div>
+            <button type="submit" class="btn btn-success" href="/login">Register</button>
+         </div>
+        </form>
+        </form>
+      </div>
+
+</body>
+</html>
